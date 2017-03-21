@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_configuration"
+            android:icon="@drawable/ic_menu_config"
+            android:title="@string/configuration" />
+        <item
+            android:id="@+id/nav_centre_interet"
+            android:icon="@drawable/ic_menu_interet"
+            android:title="@string/centre_d_interert" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_menu_notification"
+            android:title="@string/notification" />
+
+    </group>
+
+    <item android:title="@string/communucation">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/partage_une_notification" />
+        </menu>
+    </item>
+
+</menu>
