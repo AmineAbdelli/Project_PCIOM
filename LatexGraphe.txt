@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+\pgfplotsset{every axis legend/.append style={at={(0.5,1.03)},anchor=south}}
+\begin{axis}[ xlabel={Degre Moyenne}, ylabel={CDS Size}]
+\addplot[mark=none,blue,ultra thick] coordinates {
+(0.8720000213384629,3.0)
+(1.4551999986171722,30.0)
+(2.888000001907349,52.0)
