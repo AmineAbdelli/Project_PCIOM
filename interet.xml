@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_pref"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pciom.projet_ssio.PrefActivity">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Sport"
+        android:key="switch_interet_sport"
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Mode"
+        android:key="switch_interet_mode"
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Traffic routier"
+        android:key="switch_interet_route"
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Evenement"
+        android:key="switch_interet_evenement"
+        />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Restauration"
+        android:key="switch_interet_resetaurant"
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Actualites"
+        android:key="switch_interet_actualites"
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Musiques"
+        android:key="switch_interet_musique"
+        />
+
+
+
+</PreferenceScreen>
