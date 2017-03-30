@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_pref"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pciom.projet_ssio.PrefActivity">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="@string/user"
+        android:key="switch_preference_user"
+         />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="@string/controleur"
+        android:key="switch_preference_controleur"
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="@string/relayeur"
+        android:key="switch_preference_relayeur"
+        />
+
+
+</PreferenceScreen>

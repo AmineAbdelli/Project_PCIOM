@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Projet_SSIO</string>
+    <string name="config_name">Paramètre du compte </string>
+
+    <string name="user">Utilisateur simple </string>
+    <string name="controleur">Controleur secondaire </string>
+    <string name="relayeur">Relayeur</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="provider_enabled">The provider %s is now enabled</string>
+    <string name="provider_disabled">The provider %s is now disabled</string>
+    <string name="user_name">User name</string>
+    <string name="desc">desc</string>
+    <string name="centre_d_interert">Centre d\'interert</string>
+    <string name="configuration">Configuration</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="communicate">Communicate</string>
+    <string name="notification">notification</string>
+    <string name="partage_une_notification">Partage une notification</string>
+    <string name="configuration_menu">Configuration</string>
+    <string name="communucation">Communucation</string>
+    <string name="para">Paramètre du compte</string>>
+</resources>
